@@ -1,0 +1,19 @@
+{
+    "name": "shortlist-digital/wp-header-signup-plugin",
+    "description": "A pluging to add signup fields to the header",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shortlist Studio",
+            "email": "hi@shortlist.studio"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "WpHeaderSignupPlugin\\": "app/"
+        }
+    },
+    "require": {}
+}
