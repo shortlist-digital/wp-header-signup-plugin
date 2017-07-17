@@ -9,14 +9,4 @@
 * Author URI: http://shortlist.studio
 * License: MIT
 */
-
-require_once __DIR__ . '/../../../../vendor/autoload.php';
-
-class WpHeaderSignupPlugin
-{
-    public function __construct()
-    {
-        //
-    }
-}
-new WpHeaderSignupPlugin();
+require __DIR__ . '/acf.php';
