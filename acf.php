@@ -6,7 +6,7 @@ add_action('acf/init', function() {
 
 	function acf_add_signup_choice( $options ) {
 		$post_type = get_post_type();
-		if ($post_type == "page") { // example post type
+		if ($post_type == "page" || (isset($_GET['taxonomy']) && ($_GET['taxonomy'] == 'category'))) {
 			$options['choices']['hero-signup'] = "Hero Signup";
 		}
 		return $options;
